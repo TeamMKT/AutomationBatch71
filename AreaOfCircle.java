@@ -9,6 +9,6 @@ public class AreaOfCircle
 		double r=10;
 		double area=pi*r*r;
 		System.out.println("Are of Circle is -> "+area);
-		
+		StaticMethods.add(area, area);
 	}
 }

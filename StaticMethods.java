@@ -7,7 +7,7 @@ package module1.basic.javaconcepts;
  */
 public class StaticMethods 
 {
-	static void add(int a,int b)//local variable
+	public static void add(int a,int b)//local variable
 	{
 		int sum=a+b;
 		System.out.println(sum);
