@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrominum Engine(failed)">
+    <classes>
+      <class name="BaseTestConcept.Tc3_LoginSearchingLogout">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="loginSearchingLogout"/>
+        </methods>
+      </class> <!-- BaseTestConcept.Tc3_LoginSearchingLogout -->
+      <class name="BaseTestConcept.Tc1_LoginToAmazon">
+        <methods>
+          <include name="withValidCredentails"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- BaseTestConcept.Tc1_LoginToAmazon -->
+    </classes>
+  </test> <!-- Chrominum Engine(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->
